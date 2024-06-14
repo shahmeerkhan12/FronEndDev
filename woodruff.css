@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	padding: 20px 10px;
+	background-color: rgb(110, 20, 10, 0.1);
+	text-align: center;
+}
+.about_me{
+	font-size: 20px;
+}
+.ongoing-session, .other-products {
+	margin: 10px auto;
+	padding: 10px;
+		background-color: rgb(110, 20, 10, 0.1);
+}
+ul li{
+	padding: 05px 0px;
+}
+
+.title{
+	padding: 10px 10px;
+	font-weight: bold;
+}
+h1{
+	color: azure;
+}
+body{
+	color: azure;
+	font-family: 'Georgia';
+	background-image: url("file:///D:/SHAHMIR%20KHAN/Extra%20courses/html%20and%20css/bird.jpg");
+}
+ul{
+ 	font-size: 16px;
+}
+h2{
+	padding: 20px 10px;
+	background-color: rgb(110, 20, 10, 0.1);
+}
+footer{ 
+	text-align: center;
+	padding: 20px 10px;
+}
