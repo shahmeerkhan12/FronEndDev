@@ -1,0 +1,32 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+header{
+   background-color: rgb(49, 45, 45);
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+}
+nav{
+   margin: 0px;
+   padding: 20px 0px;
+}
+nav li{
+   color: white;
+   font-weight: 600;
+   font-size: 12px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: inline-block;
+   width: 80px;
+}
+main{
+   
+   width: 1280;
+   height: 1920;
+   text-align: center;
+   position: relative;
+   top: 100px;
+   background-image: url(https://www.mmarchitecturalphotography.com/chicago-architectural-photographer/uploads/2018/06/300-north-lasalle-chicago.jpg);
+   
+}
