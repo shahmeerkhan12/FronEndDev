@@ -1,0 +1,56 @@
+body {
+  background-image: url(file:///D:/SHAHMIR%20KHAN/7%20html%20and%20css/France%20monutain.jpg);
+  font-family: "Fjalla One", Arial;
+  margin: 0;
+  padding: 0%;
+  color: white;
+}
+nav {
+  background-color: rgb(50, 50, 227);
+  padding: 10px 10px;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  display: flex;
+}
+nav ul {
+  width: 100%;
+  display: inline-flex;
+  float: right;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+p {
+  font: bold;
+  font-size: 1em;
+}
+
+form {
+  line-height: 25px;
+  color: white;
+}
+input[type="submit"] {
+  border: 2px solid wheat;
+  border-radius: 4px;
+}
+input[type="submit"]:hover {
+  color: white;
+  background: #4070ea;
+  cursor: pointer;
+}
+.overlay {
+  width: 40%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 3%;
+  background-color: rgb(50, 50, 227);
+  border-radius: 40px;
+  height: 90vh;
+  text-align: center;
+}
+a {
+  color: white;
+}

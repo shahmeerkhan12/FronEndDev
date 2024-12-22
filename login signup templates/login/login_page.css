@@ -1,0 +1,76 @@
+body {
+  background-image: url(file:///D:/SHAHMIR%20KHAN/7%20html%20and%20css/France%20monutain.jpg);
+  font-family: "Fjalla One", Arial;
+  margin: 0;
+  padding: 0%;
+}
+nav {
+  background-color: rgb(50, 50, 227);
+  padding: 10px 10px;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  display: flex;
+}
+nav ul {
+  width: 100%;
+  display: inline-flex;
+  float: right;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+p {
+  font: bold;
+  font-size: 1em;
+}
+h1 {
+  width: 100%;
+  color: white;
+  font-size: 3em;
+  overflow: break;
+}
+form {
+  color: black;
+  /*	line-height: 25px;*/
+}
+input[type="submit"] {
+  font-size: 18px;
+  border: 2px solid wheat;
+  border-radius: 4px;
+  padding: 7px 14px;
+}
+input[type="submit"]:hover {
+  color: white;
+  background: #4070ea;
+  cursor: pointer;
+}
+.overlay {
+  background-color: rgb(50, 50, 227);
+  color: white;
+  width: 40%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 3%;
+  border-radius: 40px;
+  text-align: center;
+}
+label {
+  color: white;
+  font-weight: 500;
+}
+input[type="text"],
+input[type="password"] {
+  border-radius: 5px;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+a[href="practice.html"] {
+  color: white;
+  font-size: larger;
+}
