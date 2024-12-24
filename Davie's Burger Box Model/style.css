@@ -1,0 +1,148 @@
+/* Universal Styles */
+
+body {
+  /* background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_foodlogo.png"); */
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+/* icon */
+img {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+}
+/* Navigation */
+nav {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 100px 10px auto;
+  display: flex;
+  gap: 0px;
+  z-index: 1;
+}
+
+nav span {
+  width: 100px;
+  padding: 10px;
+  margin: 40px auto;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: #05a8aa;
+  font-weight: 700;
+}
+nav span:hover {
+  background-color: #05a8aa;
+  border: 1px solid #05a8aa;
+  color: #fff;
+}
+nav a {
+  color: #666666;
+}
+
+/* Content Container */
+
+.content {
+  /* overflow: scroll; */
+  margin: 10px auto;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("burgerphoto.webp");
+  background-position: center;
+  background-size: cover;
+  height: 820px;
+  position: relative;
+}
+
+.header h1 {
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #05a8aa;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 100%;
+}
+
+/* Content Body */
+
+.content .body {
+  margin: 0px auto;
+  width: 90%;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: #05a8aa;
+  display: block;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #05a8aa;
+  border: 1px solid #05a8aa;
+  color: #fff;
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  padding: 20px;
+}
+
+ul.nutrition li {
+  margin-bottom: 3px;
+  padding: 10px 20px;
+  width: 200px;
+  display: inline-block;
+  background-color: #05a8aa;
+  list-style: none;
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
