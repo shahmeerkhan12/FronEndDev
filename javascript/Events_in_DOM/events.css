@@ -1,0 +1,18 @@
+div {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+button {
+  padding: 12px 24px;
+}
+.visible {
+  visibility: hidden;
+}
